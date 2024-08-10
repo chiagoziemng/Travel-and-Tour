@@ -1,0 +1,200 @@
+/*
+Template Name: Tour Agency
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************list****************/
+.main_list{
+background-image: url(../img/18.jpg);
+background-position: center;
+}
+.list_1i .form-control{
+height:40px; 
+ }
+.list_1i .form-select{
+height:40px; 
+ }
+.list_1io{
+margin-top:12px; 
+ }
+
+.list_pg1i .nav-tabs .nav-link {
+border: none;
+padding: 8px 20px;
+color: #333;
+background:#f9f9f9;
+transition: 0.3s;
+border-radius:0;
+font-weight:bold;
+}
+.list_pg1i .nav-tabs .nav-link:hover {
+background:#ef3f3e;
+color:#fff;
+}
+.list_pg1i .nav-tabs .nav-link.active {
+background:#ef3f3e;
+color:#fff;
+}
+
+.offer_2mi2 span a{
+ width:40px;
+ height:40px;
+ line-height:45px;
+ }
+ 
+.main_dt{
+background-image: url(../img/28.jpg);
+background-position: center;
+}
+.list_dt1r2 ul li a{
+width:35px;
+height:35px;
+line-height:35px;
+font-size:14px; 
+ }
+.main_book{
+background-image: url(../img/32.jpg);
+background-position: center;
+}
+
+.book_pg1lil .form-control{
+height:45px; 
+ }
+.book_pg1lil .form-control{
+height:auto; 
+ }
+/*********************list_end****************/
+
+
+
+@media screen and (max-width : 767px){
+.list_1i {
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.list_pg1i .nav-tabs .nav-link {
+margin-top:5px;
+margin-bottom:5px;
+}
+.offer_2m2 {
+text-align:center; 
+ }
+.offer_2m2 p{
+text-align:left; 
+ }
+.list_dt1l2  h6{
+text-align:center; 
+ }
+.list_dt1l3  h5{
+text-align:center;  
+ }
+.list_dt1l4i1 h6{
+ text-align:center;  
+ }
+.list_dt1l4i1 {
+margin-top:5px;
+margin-bottom:5px;
+ }
+.list_dt1l4i1{
+margin-top:10px;
+text-align:center!important; 
+ }
+.list_dt1r{
+margin-top:15px; 
+ }
+.list_dt1r1ir {
+text-align:center!important;
+margin-top:15px; 
+ }
+.list_dt1r1il {
+text-align:center; 
+ }
+.list_dt1r1  h6{
+text-align:center!important; 
+ }
+.list_dt1r2 {
+ text-align:center;  
+ }
+.list_dt1r3 {
+ text-align:center;  
+ }
+.book_pg1l  h5{
+text-align:center;  
+ }
+.book_pg1lil{
+margin-top:10px; 
+ }
+.book_pg1r h5{
+text-align:center;  
+ }
+.book_pg1r {
+margin-top:15px; 
+ }
+.book_pg1ri1l {
+text-align:left!important; 
+ }
+.book_pg1lilo h6{
+text-align:center!important;  
+ }
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+.book_pg1r h5{
+text-align:left; 
+ }
+ }
+@media (min-width:768px) and (max-width:991px) {
+.list_1io  .button{
+padding:10px 15px!important; 
+ }
+.offer_2m2  li{
+margin-top:3px;
+margin-bottom:3px; 
+ }
+.list_dt1l4i1 h6{
+font-size:12px; 
+ }
+.list_dt1l4i1  .button{
+padding:10px 15px!important;  
+ }
+.list_dt1l4i1 h6 i{
+font-size:13px!important;  
+ }
+.list_dt1r1il h6{
+font-size:12px!important;   
+ }
+.list_dt1r1 .button{
+padding:10px 10px!important; 
+font-size:14px; 
+ }
+.list_dt1r2 ul li  {
+margin-top:3px;
+margin-bottom:3px;
+}
+.book_pg1rir {
+margin-top:0!important; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.list_1io  .button{
+padding-left:20px!important; 
+padding-right:20px!important; 
+ }
+.offer_2m2  ul li  {
+margin-top:3px;
+margin-bottom:3px;
+}
+.book_pg1rir {
+margin-top:0!important; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1360px) {
+
+ }
+
+
+
