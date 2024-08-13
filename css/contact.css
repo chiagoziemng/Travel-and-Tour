@@ -8,8 +8,9 @@ Licence: <a href="https://www.templateonweb.com/license">Website Template Licenc
 
 /*********************contact****************/
 .main_cont{
-background-image: url(../img/33.jpg);
+background-image: url(../img/1a.png);
 background-position: center;
+background-repeat: no-repeat;
 }
 .main_about{
 background-image: url(../img/1000.png);
