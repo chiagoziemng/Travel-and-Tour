@@ -7,9 +7,10 @@
 	<title>Asogworld Travel and Tours</title>
 	<link href="css/bootstrap.min.css" rel="stylesheet" >
 	<link href="css/font-awesome.min.css" rel="stylesheet" >
-	<link href="css/main.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
 
 	<style>
@@ -20,6 +21,32 @@
 			.zoom-img:hover {
 			transform: scale(1.1); /* Zoom in by 10% on hover */
 			}
+
+
+					.blog-card {
+			border: none;
+			border-radius: 10px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			transition: transform 0.3s ease-in-out;
+		}
+
+		.blog-card:hover {
+			transform: translateY(-5px);
+		}
+
+		.rating .fa {
+			font-size: 1.2rem;
+		}
+
+
+        #center.center_o {
+    background-image: url('img/d.png'); /* Replace with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0; /* Adjust padding as needed */
+}
+
 
 	</style>
 
@@ -42,11 +69,11 @@
 				<ul class="navbar-nav mb-0 ms-auto">
 
 				<li class="nav-item">
-				<a class="nav-link " aria-current="page" href="index.html">Tour Packages</a>
+				<a class="nav-link active" aria-current="page" href="tour.html">Tour Packages</a>
 				</li>
 
 				<li class="nav-item">
-				<a class="nav-link active" >Top Deals</a>
+				<a class="nav-link">Top Deals</a>
 				</li>
 
 				<li class="nav-item dropdown">
@@ -111,95 +138,24 @@
 			</nav>
 		</section>
   	</div>
-  
-	<div class="main_2">
-		<section id="center" class="center_home">
-			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<img src="img/1aa.png" class="d-block w-100" alt="...">
-
-						<div class="carousel-caption d-md-block">
-							<h1 class="fs-1 mt-3">Welcome To </h1>
-							<h1 class="mt-3">
-								Asogworld Travel & Tours<span class="col_james">.</span>
-							</h1>
-							
-								<ul class="mb-0 mt-4">
-									<li class="d-inline-block"><a class="button" href="about.html">About Us </a></li>
-									<li class="d-inline-block ms-2"><a class="button_1" href="contact.html">Book an Tour </a></li>
-								</ul>
-							 
-						</div>
-					</div>
-
-					<div class="carousel-item">
-						<img src="img/d.png" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-md-block">
-							<h1>Asogworld Focuses On<br/> Customer Satisfaction</h1>
-
-							<p class="text-white fs-2">
-								We carefully consider our Services to Support each and every stage of your travel.
-							</p>
-							
-							<ul class="mb-0 mt-2">
-								<li class="d-inline-block"><a class="button" href="about.html">About Us</a></li>
-								<li class="d-inline-block ms-2"><a class="button_1" href="contact.html">Book an appoinment </a></li>
-							</ul>
-							
-						</div>
-					</div>
-
-					<div class="carousel-item">
-						<img src="img/b.png" class="d-block w-100" alt="...">
-						<div class="carousel-caption d-md-block">
-							<h1>Escape with us for a while <br/> and live life to the fullest.</h1>
-
-							<p class="text-white mt-3 fs-2">
-								The world is too big to leave unxplored, explore with us to make moments for lifetime in your heart
-							</p>
-
-							
-							<ul class="mb-0 mt-4">
-								<li class="d-inline-block"><a class="button" href="#">About Us </a></li>
-								<li class="d-inline-block ms-2"><a class="button_1" href="#">Book an appointment</a></li>
-							</ul>
-							
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-    </div>
+      <div class="main_2">
+        <section id="center" class="center_o">
+            <div class="container-xl">
+            <div class="row center_o1 text-center">
+                <div class="col-md-12">
+                    <br/><br/><br/><br/>
+                <h2 class="text-white text-uppercase">Explore Our Tours </h2>
+                <h6 class="mb-0 mt-3 col_red"><a class="text-white" href="index.html">
+                    Home</a> 
+                    <span class="mx-2 text-muted">/</span> Tours</h6>
+                </div>
+            </div>
+        </div>   
+        </section>
+     </div>
 </div>
 
-<!-- Adventisment -->
 
-<section id="offer" class="p_3">
-	<div class="container-xl">
-		<div class="row offer_2">
-			<div class="col-md-6">
-				<div class="offer_2m">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi">
-							<img src="img/1a.png"  alt="abc" class="w-100">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-6">
-				<div class="offer_2m">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi">
-							<img src="img/2b.png"  alt="abc" class="w-100">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
 
 <!-- Recommend-->
 <section id="offer" class="p_3">
@@ -218,7 +174,7 @@
 						<img src="img/cape.png"  alt="abc" class="w-100">
 						</div>
 						<div class="offer_2mi2 position-absolute bottom-0 p-3 text-end w-100">
-							<span><a class="col_love fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart-o"></i></a></span>
+							<span><a class="text-white fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart-o"></i></a></span>
 						</div>
 					</div>
 
@@ -252,7 +208,7 @@
 						<img src="img/qater.png"  alt="abc" class="w-100">
 						</div>
 						<div class="offer_2mi2 position-absolute bottom-0 p-3 text-end w-100">
-							<span><a class="bg-white col_red fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart"></i></a></span>
+							<span><a class="text-white fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart-o"></i></a></span>
 						</div>
 					</div>
 
@@ -287,7 +243,7 @@
 						<img src="img/doha.png"  alt="abc" class="w-100">
 						</div>
 						<div class="offer_2mi2 position-absolute bottom-0 p-3 text-end w-100">
-							<span><a class="bg-white col_red fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart"></i></a></span>
+							<span><a class="text-white fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart-o"></i></a></span>
 						</div>
 					</div>
 
@@ -325,7 +281,7 @@
 						<h5 class="d-inline-block text-white rounded_30 bg-dark p-2  lh-1 px-4"> <span class="text-decoration-line-through fs-6 me-2">₦6,700,000</span> ₦5,200,000</h5>
 						</div>
 						<div class="offer_2mi2 position-absolute bottom-0 p-3 text-end w-100">
-							<span><a class="bg-white col_red fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart"></i></a></span>
+							<span><a class="text-white fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart-o"></i></a></span>
 						</div>
 					</div>
 					
@@ -362,7 +318,7 @@
 						<img src="img/mala.png"  alt="abc" class="w-100">
 						</div>
 						<div class="offer_2mi2 position-absolute bottom-0 p-3 text-end w-100">
-							<span><a class="bg-white col_red fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart"></i></a></span>
+							<span><a class="text-white fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart-o"></i></a></span>
 						</div>
 					</div>
 
@@ -399,7 +355,7 @@
 						<h6 class="d-inline-block text-white rounded_30 bg_red p-2 font_14 lh-1 px-4"><strong>Sold Out</strong></h6><br>
 						</div>
 						<div class="offer_2mi2 position-absolute bottom-0 p-3 text-end w-100">
-							<span><a class="bg-white col_red fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart"></i></a></span>
+							<span><a class="text-white fs-4 rounded-circle d-inline-block text-center" href="#"><i class="fa fa-heart-o"></i></a></span>
 						</div>
 					</div>
 					
@@ -430,144 +386,6 @@
 </section>
 
 
-<!-- Top Destination -->
-<section id="offer" class="p_3 bg-light">
-	<div class="container-xl">
-		<div class="row offer_1 text-center mb-4">
-			<div class="col-md-12">
-				<h2 class="mt-2">Top destinations</h2>
-			</div>
-		</div>
-
-		<div class="row offer_2">
-			<div class="col-md-3">
-				<div class="offer_2m">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi zoom-img">
-							<div  class="offer_2mi2 position-absolute bottom-0 p-3 text-white text-center w-100">
-								<h1>
-									Lebanon
-								</h1>
-							</div>
-							<img src="img/cape.png"  alt="abc" class="w-100 rounded ">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="offer_2m">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi zoom-img">
-							<div  class="offer_2mi2 position-absolute bottom-0 p-3 text-white text-center w-100">
-								<h1>
-									Accra
-								</h1>
-							</div>
-							<img src="img/cape.png"  alt="abc" class="w-100 rounded">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="offer_2m">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi zoom-img">
-							<div  class="offer_2mi2 position-absolute bottom-0 p-3 text-white text-center w-100">
-								<h1>
-									Zanzibar
-								</h1>
-							</div>
-							<img src="img/cape.png"  alt="abc" class="w-100 rounded">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="offer_2m zoom-img">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi">
-							<div  class="offer_2mi2 position-absolute bottom-0 p-3 text-white text-center w-100">
-								<h1>
-									Egypt
-								</h1>
-							</div>
-							<img src="img/cape.png"  alt="abc" class="w-100 rounded">
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</div>
-<br/>
-		<div class="row offer_2">
-			<div class="col-md-3">
-				<div class="offer_2m zoom-img">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi">
-							<div  class="offer_2mi2 position-absolute bottom-0 p-3 text-white text-center w-100">
-								<h1>
-									Qatar
-								</h1>
-							</div>
-							<img src="img/cape.png"  alt="abc" class="w-100 rounded">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="offer_2m zoom-img">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi">
-							<div  class="offer_2mi2 position-absolute bottom-0 p-3 text-white text-center w-100">
-								<h1>
-									Tunisia
-								</h1>
-							</div>
-							<img src="img/cape.png"  alt="abc" class="w-100 rounded">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="offer_2m zoom-img">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi">
-							<div  class="offer_2mi2 position-absolute bottom-0 p-3 text-white text-center w-100">
-								<h1>
-									Doha
-								</h1>
-							</div>
-							<img src="img/cape.png"  alt="abc" class="w-100 rounded">
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-3">
-				<div class="offer_2m zoom-img">
-					<div class="offer_2m1 position-relative">
-						<div class="offer_2mi">
-							<div  class="offer_2mi2 position-absolute bottom-0 p-3 text-white text-center w-100">
-								<h1>
-									Namibia
-								</h1>
-							</div>
-							<img src="img/cape.png"  alt="abc" class="w-100 rounded">
-						</div>
-					</div>
-				</div>
-			</div>
-		
-		</div>
-	</div>
-</section>
-
-
 <!--blog-->
 <section id="testim" class="p_3 carousel_p">
 	<div class="container-xl">
@@ -580,51 +398,45 @@
 		</div>
 		
 		<div class="testim_1 row">
-			<div id="carouselExampleCaptions1" class="carousel slide" data-bs-ride="carousel">
-		<div class="carousel-indicators">
-			<button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
-			<button type="button" data-bs-target="#carouselExampleCaptions1" data-bs-slide-to="1" aria-label="Slide 2" class="" aria-current="true"></button>
-		</div>
-		<div class="carousel-inner">
-			<div class="carousel-item active">
-			<div class="testim_1i row">
-				<div class="col-md-12">
-				<div class="testim_1i1 text-center">
-				<img src="img/10.jpg" class="rounded-circle" alt="abc">
-				<p class="mt-3">Architecto aut error explicabo. Voluptatem eaque sequi qui beatae velit vero autautem. Et <br> adipisci perferendis corporis et similique vitae consequatur. Auteveniet quam. <br>  Impedit blanditiis delectus.</p>
-				<h4 class="mb-3">Lorem Amet</h4>
-				<span class="text-warning">
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star-o"></i>
-				</span>
-				</div>  
+			<div class="col-md-4 mb-4">
+				<div class="testim_1i1 text-center card blog-card h-100">
+					<img src="img/vis.png" class="card-img-top" alt="abc">
+					<div class="card-body">
+						<p class="text-muted">Visa</p>
+						<h4 class="card-title mb-3">How to Apply For An Icelandic Schengen Visa In Nigeria</h4>
+						<p class="text-muted">Apply for an Icelandic Schengen Visa In Nigeria with Asogworld</p>
+					</div>
 				</div>
 			</div>
-			</div>
-			<div class="carousel-item">
-				<div class="testim_1i row">
-				<div class="col-md-12">
-				<div class="testim_1i1 text-center">
-				<img src="img/11.jpg" class="rounded-circle" alt="abc">
-				<p class="mt-3">Architecto aut error explicabo. Voluptatem eaque sequi qui beatae velit vero autautem. Et <br> adipisci perferendis corporis et similique vitae consequatur. Auteveniet quam. <br>  Impedit blanditiis delectus.</p>
-				<h4 class="mb-3">Dolor Porta</h4>
-				<span class="text-warning">
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star"></i>
-				<i class="fa fa-star-o"></i>
-				</span>
-				</div>  
+		
+			<div class="col-md-4 mb-4">
+				<div class="testim_1i1 text-center card blog-card h-100">
+					<img src="img/visa.png" class="card-img-top" alt="abc">
+					<div class="card-body">
+						<p class="text-muted">Visa</p>
+						<h4 class="card-title mb-3">How To Apply For A German Schengen Visa In Nigeria</h4>
+						<p>
+							Asogworld Travel and Tour stands out as a trusted partner for navigating the intricacies of the German Schengen visa process.
+						</p>
+					</div>
 				</div>
 			</div>
+		
+			<div class="col-md-4 mb-4">
+				<div class="testim_1i1 text-center card blog-card h-100">
+					<img src="img/china.png" class="card-img-top" alt="abc">
+					<div class="card-body">
+						<p class="text-muted">DESTINATION GUIDES</p>
+						<h4 class="card-title mb-3">15 Best Things To Do In China </h4>
+						<p class="text-muted">
+							As you plan your trip to China, You're probably wondering...
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
-		</div>
-		</div>
+		
+		
 	</div>
 </section>
 
@@ -644,17 +456,14 @@
 						</h5>
 
 						<h2 class="text-white mt-3">
-							Download our app
+							Don't hesitate to contact us for more information.
 						</h2>
 						<p class="mt-3 text-light">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias aperiam at, 
-							aut commodi corporis dolorum ducimus <br>labore magnam  mollitia natus porro possimus quae sit 
-							tenetur veniam veritatis voluptate voluptatem!
+							Your requests will be answered and processed promptly. If you do not receive the reply within 3 business days. please call the office immediately.
 						</p>
 						
 						<ul class="mb-0 mt-4">
-							<li class="d-inline-block"><a class="button rounded-3" href="#"><i class="fa fa-apple me-1"></i> App Store </a></li>
-							<li class="d-inline-block ms-2"><a class="button_1 rounded-3" href="#"><i class="fa fa-android me-1"></i> Play Store </a></li>
+							<li class="d-inline-block"><a class="button rounded-3" href="#"><i class="fa fa-envelope me-1"></i> Contact Us</a></li>
 						</ul>
 						
 						
@@ -675,11 +484,11 @@
 					<div class="footer_1li row">
 						<div class="col-md-4">
 							<div class="footer_1lil">
-								<h3 class="mb-4"><a class="fs-3 text-dark" href="index.html"><i class="fa fa-plane align-middle me-1 col_james"></i> Asogworld Travel & Tours </a></h3>
+								<h3 class="mb-4"><a class="fs-3 text-dark" href="index.html"><i class="fa fa-plane align-middle me-1 col_red"></i> Asogworld Travel & Tours </a></h3>
 								<p class="text-dark-50">Connecting you with the world.</p>
-								<p class="text-dark-50"><i class="fa fa-map-marker col_james me-1"></i> B-31, Porta, Abuja.</p>
-								<p class="text-dark-50"><i class="fa fa-phone col_james me-1"></i>  +123 4567 890</p>
-								<p class="text-dark-50 mb-0"><i class="fa fa-envelope col_james me-1"></i> info@gmail.com</p>
+								<p class="text-dark-50"><i class="fa fa-map-marker col_red me-1"></i> Suit FF25 Anafara Plaza, 1st Avenue, opp. Oando Filling Station, Gwarinpa, Abuja.</p>
+								<p class="text-dark-50"><i class="fa fa-phone col_red me-1"></i>  +234  0810 881 3145</p>
+								<p class="text-dark-50 mb-0"><i class="fa fa-envelope col_red me-1"></i> info@gmail.com</p>
 							</div>
 						</div>
 
@@ -708,7 +517,7 @@
 										<div class="footer_1liril">
 											<div class="grid">
 												<figure class="effect-jazz mb-0">
-													<a href="#"><img src="img/12.jpg" class="w-100" alt="img25"></a>
+													<a href="#"><img src="img/mala.png" class="w-100" alt="img25"></a>
 												</figure>
 											</div>
 										</div>
@@ -718,7 +527,7 @@
 										<div class="footer_1liril">
 											<div class="grid">
 												<figure class="effect-jazz mb-0">
-													<a href="#"><img src="img/13.jpg" class="w-100" alt="img25"></a>
+													<a href="#"><img src="img/doha.png" class="w-100" alt="img25"></a>
 												</figure>
 											</div>
 										</div>
@@ -728,7 +537,7 @@
 										<div class="footer_1liril">
 											<div class="grid">
 												<figure class="effect-jazz mb-0">
-													<a href="#"><img src="img/14.jpg" class="w-100" alt="img25"></a>
+													<a href="#"><img src="img/egypt.png" class="w-100" alt="img25"></a>
 												</figure>
 											</div>
 										</div>
@@ -740,7 +549,7 @@
 										<div class="footer_1liril">
 											<div class="grid">
 												<figure class="effect-jazz mb-0">
-													<a href="#"><img src="img/15.jpg" class="w-100" alt="img25"></a>
+													<a href="#"><img src="img/france.png" class="w-100" alt="img25"></a>
 												</figure>
 											</div>
 										</div>
@@ -750,7 +559,7 @@
 										<div class="footer_1liril">
 											<div class="grid">
 												<figure class="effect-jazz mb-0">
-													<a href="#"><img src="img/16.jpg" class="w-100" alt="img25"></a>
+													<a href="#"><img src="img/cape.png" class="w-100" alt="img25"></a>
 												</figure>
 											</div>
 										</div>
@@ -760,7 +569,7 @@
 										<div class="footer_1liril">
 											<div class="grid">
 												<figure class="effect-jazz mb-0">
-													<a href="#"><img src="img/17.jpg" class="w-100" alt="img25"></a>
+													<a href="#"><img src="img/namibia.png" class="w-100" alt="img25"></a>
 												</figure>
 											</div>
 										</div>
@@ -782,17 +591,16 @@
 			<div class="col-md-4">
 				<div class="footer_b_1l">
 					<ul class="mb-0 fs-4">
-						<li class="d-inline-block me-3"><a class="text-white-50" href="#"><i class="fa fa-facebook"></i></a></li>
-						<li class="d-inline-block me-3"><a class="text-white-50" href="#"><i class="fa fa-twitter"></i></a></li>
-						<li class="d-inline-block me-3"><a class="text-white-50" href="#"><i class="fa fa-instagram"></i></a></li>
-						<li class="d-inline-block"><a class="text-white-50" href="#"><i class="fa fa-pinterest"></i></a></li>
+						<li class="d-inline-block me-3"><a class="text-white-50" href="https://www.facebook.com/asogworldTravels/"><i class="fa fa-facebook"></i></a></li>
+						<li class="d-inline-block me-3"><a class="text-white-50" href="https://x.com/asogworld"><i class="fa fa-twitter"></i></a></li>
+						<li class="d-inline-block me-3"><a class="text-white-50" href="https://www.instagram.com/asogworld_travels/"><i class="fa fa-instagram"></i></a></li>
 					</ul>
 				</div>
 			</div>
 
 			<div class="col-md-8">
 				<div class="footer_b_1r text-end">
-					<p class="mb-0 text-white-50 mt-2">© 2024 Asogworld Travel & Tour. All Rights Reserved | Design by <a class="col_james fw-bold" href="http://www.omarandblasius.com.ng">Omar and Blasius Ltd</a></p>
+					<p class="mb-0 text-white-50 mt-2">© 2024 Asogworld Travel & Tour. All Rights Reserved | Design by <a class="col_red fw-bold" href="http://www.omarandblasius.com.ng">Omar and Blasius Ltd</a></p>
 				</div>
 			</div>
 		</div>
